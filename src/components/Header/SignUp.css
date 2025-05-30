@@ -1,0 +1,103 @@
+/* src/components/Header/signup.css */
+
+.signup-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, black,navy);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.signup-container h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.error-text {
+  color: tomato;
+  font-size: 14px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.signup-form {
+  background-color: rgba(30, 30, 30, 0.9);
+  padding: 30px;
+  border-radius: 8px;
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+}
+
+.signup-form input {
+  margin-bottom: 15px;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #555;
+  background-color: #222;
+  color: #eee;
+  font-size: 16px;
+}
+
+.signup-form input::placeholder {
+  color: #aaa;
+}
+
+.signup-form button {
+  background: linear-gradient(90deg,blue,lightblue);
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+  font-size: 16px;
+}
+
+.signup-form button:hover {
+  opacity: 0.85;
+}
+
+.signup-container p {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 14px;
+}
+.signup-container h2 {
+  color: white;
+}
+
+.signup-container p a {
+  color: #8f94fb;
+  cursor: pointer;
+  text-decoration: none;
+  transition: opacity 0.3s ease;
+}
+
+.signup-container p a:hover {
+  opacity: 0.85;
+}
+.password-field {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.password-field input {
+  width: 100%;
+  padding-right: 35px;
+}
+
+.password-field span {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #aaa;
+}
+
